@@ -44,25 +44,29 @@ function Countries() {
         ))}
       </ul>
 
-      <h1>Ajouter un pays</h1>
-      <form className="add-country-form" onSubmit={handleSubmit(onSubmit)}>
-        <input
-          {...register("name", { required: true })}
-          className="input-add"
-          placeholder="Nom"
-        />
-        <input
-          {...register("code", { required: true })}
-          className="input-add"
-          placeholder="Code"
-        />
-        <input
-          {...register("emoji", { required: true })}
-          className="input-add"
-          placeholder="Emoji"
-        />
-        <button type="submit" className="btn-add">Ajouter</button>
-      </form>
+      <div className="add-country-section">
+        <h1 className="add-country-title">Ajouter un pays</h1>
+        <form className="add-country-form" onSubmit={handleSubmit(onSubmit)}>
+          <input
+            {...register("name", { required: true })}
+            className="input-add"
+            placeholder="Nom"
+          />
+          <input
+            {...register("code", { required: true })}
+            className="input-add"
+            placeholder="Code"
+          />
+          <input
+            {...register("emoji", { required: true })}
+            className="input-add"
+            placeholder="Emoji"
+          />
+          <button type="submit" className="btn-add">
+            Ajouter
+          </button>
+        </form>
+      </div>
     </section>
   );
 }
