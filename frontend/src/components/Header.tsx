@@ -5,7 +5,8 @@ export function Header() {
   return (
     <header className="header">
       <h1>Countries app</h1>
-      <Link to="/">Countries</Link>
+      <Link to="/countries">Tous les pays</Link>
+
     </header>
   );
 }

@@ -1,0 +1,9 @@
+.all-countries-container {
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.all-countries-title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
