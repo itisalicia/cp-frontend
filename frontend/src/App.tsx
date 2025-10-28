@@ -5,6 +5,7 @@ import { PageLayout } from "./components/Layout";
 import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 import Countries from "./pages/Countries/Countries";
 import CountryDetails from "./pages/Country/CountryDetails";
+// import AddCountry from "./pages/AddCountry/AddCountry";
 
 const client = new ApolloClient({
   uri: "/api",
@@ -22,6 +23,7 @@ function App() {
             <Route path="*" Component={() => <Navigate to="/" />} />
             <Route path="/countries" Component={Countries} />
             <Route path="/country/:code" Component={CountryDetails} />
+            {/* <Route path="/add-country" Component={AddCountry} /> */}
           </Route>
         </Routes>
       </BrowserRouter>
