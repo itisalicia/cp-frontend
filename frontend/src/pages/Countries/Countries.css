@@ -44,3 +44,27 @@
 .btn-add:hover {
   background-color: rgb(20, 70, 20);
 }
+
+@media (max-width: 758px) {
+  .all-countries-container {
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .all-countries-title {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .add-country-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .add-country-title {
+    justify-self: center;
+  }
+  .btn-add {
+    width: 40%;
+  }
+}

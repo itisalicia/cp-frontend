@@ -1,3 +1,3 @@
 export function HomePage() {
-  return <p>You should start working here!</p>;
+  return <p>Désolée c'est pas beeeeau, mais j'ai cruellement manqué de temps</p>;
 }
