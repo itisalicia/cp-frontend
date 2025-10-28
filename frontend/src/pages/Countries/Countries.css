@@ -7,3 +7,15 @@
   font-size: 1.3rem;
   margin-bottom: 1rem;
 }
+
+.countries-link {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.countries-link:hover {
+  font-size: 1.1rem;
+  color: rgb(30, 105, 30);
+}
