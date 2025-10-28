@@ -19,3 +19,28 @@
   font-size: 1.1rem;
   color: rgb(30, 105, 30);
 }
+
+.input-add {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 10rem;
+  padding: 0.5rem;
+  width: 15rem;
+}
+
+.btn-add {
+  width: 6rem;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 10rem;
+  background-color: rgb(30, 105, 30);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-add:hover {
+  background-color: rgb(20, 70, 20);
+}
